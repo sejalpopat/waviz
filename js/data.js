@@ -27,6 +27,7 @@ var d = [
             
 		  ]
     }
+]
     // {
     //     name:"Data Set",
     //     color: 'green',

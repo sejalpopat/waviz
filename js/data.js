@@ -27,7 +27,7 @@ var d = [
             
 		  ]
     }
-]
+];
     // {
     //     name:"Data Set",
     //     color: 'green',
@@ -54,7 +54,7 @@ var d = [
     //               {axis:"Neutral",value:0.48}
     //             ]
     // }
-];
+//];
 
 // var d = [
 //     [

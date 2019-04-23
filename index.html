@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WikiArt Emotions</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+
+  <!-- Tableau -->
+  <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script>
+
+  <!-- D3 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+  
+  <!-- Jquery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" charset-"utf-8"></script>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">WIKIART</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#int">Interactive Game</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#art-overview">Art Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#em-cat">Emotion Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#chron">Emotion Chronology</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-right">
+      <div class="col-12 text-right">
+        <div id="heading-box">
+            <p id="ralign" > E X P L O R E</p>
+            <h1 class="font-weight-light">EMOTIONS</h1>
+            <h1 id="rtext" class="font-weight-light">and</h1>
+            <h1 class="font-weight-light">PAINTINGS</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <section id="int">
+    <div class="container">
+        <!-- <h1 style="color:antiquewhite" id="int-h1">Interactive Emotion Game</h1> -->
+        <div style="height:50px"></div>
+        <img class="heading-img" style="width:636px" src="images/01title.png">
+        <div style="height:50px"></div>
+        <div class="row">
+          
+          <div class="col-xs-6" style="padding-right: 50px;">
+              <img class="monalisa" src="images/monalisa.jpg">
+            </div>
+        <div class="col-xs-6">
+            <h3> What emotions does this art evoke?</h3>  
+          <p style="color:pink;" class="light-caption"> Select the emotions this art evokes on the wheel below</p>
+                          <!-- <img src="images/d3-placeholder.png"> -->
+              <div id="chart"></div>
+              <button style="align-content:center;"  type="button" class="btn btn-primary edit-btn">Click to see what other people felt about this painting</button>
+
+              <div class="update-value"></div>
+        </div>
+      </div>
+   </div>
+  </section>
+
+  <section id="art-overview" class="bg-light">
+    <div class="container">
+        <img class="heading-img" style="width:429px" src="images/02title.png">
+        <div style="height:50px"></div>
+      <div class="row">
+       
+          <!-- <h1>Art Overview</h1> -->
+          <p class="lead"> <span id="bo">WikiArt Emotions DataSet</span> is a dataset of 4,105 pieces of art  that are annotated with the emotions they evoked in observers.  The pieces of art were selected from WikiArt.org's collection for twenty-two categories from four western styles (Renaissance Art, Post-Renaissance Art, Modern Art, and Contemporary Art).  The art is annotated via crowdsourcing for one or more of twenty emotion categories. We invite you to explore the insights from the data below. </p>
+       
+          <h3> Data at a Glance</h3>
+          <img id="full" src="images/summary.png">
+     
+          <h3> 4 Styles and 22 Categories</h3>
+          <img id="full" src="images/styles-categories.png">
+       
+          <h3> Emotion Data</h3>
+          <div style="height:50px"></div>
+          <img  style="height:250px" src="images/legend.png">
+          <img  src="images/emotion-data copy.png">
+          <!-- <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1435px; height: 600px;'><object class='tableauViz' width='1435' height='600' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;introtodatavisualizationfall2018' /><param name='name' value='WikiArt_v05_SofiaDewar&#47;Bubble_EmotionsEvokedbyArtwork' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+       -->
+      </div>
+    </div>
+  </section>
+
+  <section id="em-cat">
+    <div class="container">
+      <img class="heading-img" style="width:500px" src="images/03title.png">
+      <div style="height:50px"></div>
+      <div class="row">
+        <!-- <div class="col-lg-8 mx-auto"> -->
+          <!-- <h1 id="w-h1">EMOTION CATEGORIES</h1> -->
+          <p class="lead light-caption">Art is highly subjective, often eliciting different reactions and interpretations depending on the viewer. In this case, all works of art were evaluated for a wide range of emotions. Below, we offer a deeper look into two emotions that run in direct contrast one another: happiness and sadness. </p>
+          <!-- <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1000px; height: 1527px;'><object class='tableauViz' width='1000' height='1527' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;introtodatavisualizationfall2018' /><param name='name' value='WikiArt_v05_SofiaDewar&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div> -->
+          <img id="full" src="images/art-evoke-emotions.png">
+          <img id="full" src="images/specific-artworks.png">
+          <img id="full" src="images/example-paintings.png">
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section id="chron">
+    <div class="container">
+      <img class="heading-img" style="width:500px" src="images/04title.png">
+      <div style="height:50px"></div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <!-- <h1 id="g-h1">Emotion Chronology</h1> -->
+          <!-- <img id="full" src="images/emotion-chron.png"> -->
+        </div>
+          
+      </div>
+      <div class='tableauPlaceholder' id='viz1555996040475' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Up&#47;UpdatedTeamArtV0_5-CindyZhu&#47;Timeline&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UpdatedTeamArtV0_5-CindyZhu&#47;Timeline' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Up&#47;UpdatedTeamArtV0_5-CindyZhu&#47;Timeline&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1555996040475');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1300px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <div style="height:50px"></div>
+    <img id="full" src="images/banner.png">
+    <div style="height:50px"></div>
+    <img style="padding:50px" id="full" src="images/wordcloud.png">
+  </section>
+ 
+
+
+  <section id="cred" class="bg-light">
+      <div class="container">
+        <img class="heading-img" style="width=199px" src="images/05title.png">
+        <p> We want to thank the team and source of this dataset.  Thank you to Saif M. Mohammad  and Svetlana Kiritchenko who created the WikiArt Emotion Data Set. Furthermore, thank you to WikiArt.org, as all art pieces used in the data set come from their collection. 
+
+            Icon design attributes : google-io-homepage by Mohamed Boumaiza
+            </p>
+      </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <!-- <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p> -->
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+  <!-- D3 Radar Chart -->
+  <script type="text/javascript" src="js/data.js"></script>
+  <script type="text/javascript" src="js/radarChart.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

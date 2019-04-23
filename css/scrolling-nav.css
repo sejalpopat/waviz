@@ -1,0 +1,232 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../images/illustrated-gallery-observer.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  font-family: 'Fredoka One', cursive;
+  stroke: 'black'!important ;
+  background-color: #FEFDE8  !important;
+}
+
+.navbar-brand {
+  color: black !important;
+  /* font-size: small; */
+}
+
+.nav-item > a:hover {
+  color: pink!important;
+}
+
+.nav-item > .active {
+  color: green !important;
+}
+
+.nav-link{
+  color: black!important;
+}
+
+.nav-link{
+  color:
+}
+
+
+p{
+  font-family: 'Rubik', sans-serif;
+}
+
+.light-caption {
+  color:grey;
+}
+
+.col-12{
+  text-align: right!important ;
+  width:5%;
+  font-family: 'Fredoka One', cursive;
+}
+
+h1, h2, h3 {
+  font-family: 'Fredoka One', cursive;
+}
+
+h2 {
+  color: white;
+}
+
+#w-h1, h3 {
+  color: #D1C7BA;
+}
+
+#g-h1 {
+  color: #29584B;
+}
+
+#heading-box {
+  padding-left: 650px;
+  height: 500px;
+  width: 800px;
+}
+
+#ralign {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#ralign, #rtext{
+  text-align: left !important;
+}
+
+#int {
+  padding: 20px;
+}
+
+#int, #em-cat {
+  
+  background-color: #1B1C37;
+  /* background-color: #394877; */
+}
+
+#chron {
+  background-color: #FDE2E2;
+ 
+}
+
+
+.tableauPlaceholder {
+  align-content: center;
+  
+}
+
+.heading-img {
+  height: 55px !important;
+}
+
+.monalisa {
+  width: 500px !important;
+  padding: 30px;
+}
+/* .bg-image {
+  background-image: url('../images/monalisa.jpg');
+  width: 500px;
+  background-position: center;
+} */
+#full {
+  width: 100% !important;
+  height: 100% !important;;
+}
+
+#d3{
+  padding-top: 50px !important;
+  padding-left: 50px;
+}
+
+#int-h1{
+  padding-top: 50px;
+}
+
+#art-overview{
+  background-color: #FEFDE8 !important;
+}
+
+#bo{
+  font-weight: bold;
+}
+
+
+
+/* Radar Chart Styling */
+
+.d3 {
+  overflow: hidden;
+  margin: 0;
+  font-size: 14px;
+  font-family: "proxima_nova_reg", sans-serif;
+}
+
+.d3 .edit-btn {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  height: 20px;
+  background-color: #a8a8a8;
+  color: white;
+  border-radius: 40px;
+  padding: 8px 16px 7px 13px;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 271, ../sass/radarChart.scss */
+#chart {
+  align-content: right;
+  width: 500px;
+  height:550px;
+}
+
+
+
+/* line 493, ../sass/radarChart.scss */
+.yaxis, .xaxis {
+  font: 10px sans-serif;
+  width: 100px;
+}
+
+/* line 498, ../sass/radarChart.scss */
+.yaxis path,
+.yaxis line,
+.yaxis tick {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+/* line 507, ../sass/radarChart.scss */
+.xaxis path,
+.xaxis line {
+  fill: none;
+  stroke: black;
+  stroke-dasharray: 10,10;
+  shape-rendering: crispEdges;
+}
+
+.d3 .update-value {
+  position: absolute;
+  left: 505px;
+  top: 365px;
+  width: 65px;
+  height: 65px;
+  background-color: #a8a8a8;
+  color: white;
+  border-radius: 50%;
+  cursor: default;
+  opacity: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 9;

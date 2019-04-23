@@ -109,7 +109,6 @@ function init(){
             .style("font-family", "sans-serif")
             .style("font-size", "14px")
 	    .style("fill", "grey")
-	    .style("stroke", "grey")
             .style("cursor","pointer")
             .attr("text-anchor", "middle")
             .attr("dy", "1.5em")

@@ -4,7 +4,7 @@ var d = [
 		name:"Data Set",
 		color:'pink',
 		skills:[
-	    {axis:"Neutral",value:.1}
+	    {axis:"Neutral",value:.1},
 	    {axis:"Gratitude",value:5.1},
             {axis:"Happiness",value:2.7},
             {axis:"Humility",value:2.6},

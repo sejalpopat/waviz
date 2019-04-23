@@ -23,7 +23,7 @@ var d = [
             {axis:"Anticipation",value:1.38},
             {axis:"Disagreeablenss",value:.11},
             {axis:"Surprise",value:0},
-            {axis:"Shyness",value:5.6},
+            {axis:"Shyness",value:5.6}
             
 		  ]
     }
